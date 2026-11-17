@@ -1,0 +1,1169 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>玛雅论坛最新域名-访问地址与镜像导航说明</title>
+<meta name="description" content="玛雅论坛最新域名导航页，整理可用的访问地址、镜像站切换方法、登录故障排查与社区讨论区索引。覆盖域名变更记录、DNS污染处理、账号安全设置与版块入口说明，帮助老用户快速找到当前入口，避免误入仿冒站点。">
+<meta name="keywords" content="玛雅论坛最新域名">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f3d2f'/%3E%3Cpath d='M18 44 L32 16 L46 44 Z' fill='none' stroke='%23d9a441' stroke-width='4' stroke-linejoin='round'/%3E%3Ccircle cx='32' cy='36' r='4' fill='%23d9a441'/%3E%3C/svg%3E">
+<style>
+:root{
+  --c-primary:#1f3d2f;
+  --c-primary-soft:#2f5a46;
+  --c-accent:#c8892a;
+  --c-accent-soft:#f4e3c4;
+  --c-bg:#f7f5f0;
+  --c-surface:#ffffff;
+  --c-line:#e0dbd0;
+  --c-text:#23261f;
+  --c-text-2:#5a6055;
+  --c-text-3:#8a8f83;
+  --c-ok:#2f7a4f;
+  --c-warn:#a8481f;
+  --fs-xs:12px;
+  --fs-sm:13.5px;
+  --fs-base:15.5px;
+  --fs-md:17px;
+  --fs-lg:21px;
+  --fs-xl:26px;
+  --fs-2xl:34px;
+  --sp-1:6px;
+  --sp-2:10px;
+  --sp-3:16px;
+  --sp-4:24px;
+  --sp-5:34px;
+  --sp-6:48px;
+  --radius:10px;
+  --radius-sm:6px;
+  --shadow:0 2px 10px rgba(31,61,47,.07);
+  --shadow-lg:0 8px 28px rgba(31,61,47,.12);
+  --sticky-h:104px;
+  --font-main:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:var(--sticky-h);}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  *{transition:none!important;animation:none!important;}
+}
+body{
+  margin:0;font-family:var(--font-main);font-size:var(--fs-base);
+  line-height:1.75;color:var(--c-text);background:var(--c-bg);
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--c-primary-soft);text-decoration:none;}
+a:hover{text-decoration:underline;}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;color:var(--c-primary);}
+p{margin:0 0 var(--sp-3);}
+ul,ol{margin:0 0 var(--sp-3);padding-left:1.25em;}
+img{max-width:100%;display:block;}
+button{font-family:inherit;font-size:inherit;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 var(--sp-3);}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;}
+
+/* ===== 吸顶区：公告条 + 页头 ===== */
+.sticky-zone{position:sticky;top:0;z-index:80;}
+.announce{
+  background:var(--c-primary);color:#efe9db;
+  font-size:var(--fs-sm);padding:7px var(--sp-3);
+  display:flex;gap:var(--sp-2);align-items:center;justify-content:center;
+  flex-wrap:wrap;text-align:center;
+}
+.announce .tag{
+  background:var(--c-accent);color:#241a06;font-weight:700;
+  border-radius:4px;padding:1px 7px;font-size:var(--fs-xs);letter-spacing:.5px;
+}
+.announce a{color:#f4e3c4;text-decoration:underline;text-underline-offset:2px;}
+header.site-head{
+  background:rgba(247,245,240,.96);
+  backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--c-line);
+  box-shadow:var(--shadow);
+}
+.head-inner{
+  max-width:1180px;margin:0 auto;padding:10px var(--sp-3);
+  display:flex;align-items:center;gap:var(--sp-3);flex-wrap:wrap;
+}
+.brand{display:flex;align-items:center;gap:9px;}
+.brand svg{width:36px;height:36px;flex:none;}
+.brand-text{font-size:var(--fs-md);font-weight:800;color:var(--c-primary);letter-spacing:.5px;white-space:nowrap;}
+.brand-sub{font-size:11px;color:var(--c-text-3);letter-spacing:1px;display:block;font-weight:400;}
+nav.main-nav{flex:1 1 auto;}
+nav.main-nav ul{display:flex;gap:2px;list-style:none;margin:0;padding:0;flex-wrap:wrap;}
+nav.main-nav a{
+  display:block;padding:6px 10px;border-radius:var(--radius-sm);
+  font-size:var(--fs-sm);color:var(--c-text-2);white-space:nowrap;
+}
+nav.main-nav a:hover{background:var(--c-accent-soft);color:var(--c-primary);text-decoration:none;}
+nav.main-nav a.active{background:var(--c-primary);color:#fff;}
+.head-tools{display:flex;align-items:center;gap:var(--sp-2);}
+.search-box{position:relative;display:flex;align-items:center;}
+.search-box input{
+  width:170px;padding:6px 10px;border:1px solid var(--c-line);border-radius:20px;
+  font-size:var(--fs-sm);background:var(--c-surface);color:var(--c-text);
+}
+.search-box input:focus{outline:2px solid var(--c-accent);outline-offset:1px;border-color:var(--c-accent);}
+.menu-btn{
+  display:none;background:var(--c-surface);border:1px solid var(--c-line);
+  border-radius:var(--radius-sm);padding:6px 10px;cursor:pointer;color:var(--c-primary);font-weight:700;
+}
+.menu-btn:focus-visible{outline:2px solid var(--c-accent);outline-offset:2px;}
+.search-feedback{
+  position:absolute;top:calc(100% + 6px);right:0;background:var(--c-surface);
+  border:1px solid var(--c-line);border-radius:var(--radius-sm);box-shadow:var(--shadow-lg);
+  padding:8px 12px;font-size:var(--fs-sm);color:var(--c-warn);display:none;min-width:200px;z-index:90;
+}
+.search-feedback.show{display:block;}
+
+/* ===== 首屏 ===== */
+.hero{
+  position:relative;overflow:hidden;
+  background:linear-gradient(160deg,#1f3d2f 0%,#2f5a46 58%,#3d6b52 100%);
+  color:#f2eee2;padding:var(--sp-6) 0 var(--sp-5);
+}
+.hero-inner{
+  max-width:1180px;margin:0 auto;padding:0 var(--sp-3);
+  display:grid;grid-template-columns:1.15fr .85fr;gap:var(--sp-5);align-items:center;
+}
+.hero-kicker{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:var(--fs-xs);letter-spacing:2px;color:#e0c98a;
+  border:1px solid rgba(224,201,138,.5);border-radius:20px;padding:3px 12px;margin-bottom:var(--sp-3);
+}
+.hero h1{font-size:var(--fs-2xl);color:#fff;margin-bottom:var(--sp-3);letter-spacing:1px;}
+.hero-desc{color:#d5ddcd;font-size:var(--fs-md);max-width:52ch;margin-bottom:var(--sp-4);}
+.hero-actions{display:flex;gap:var(--sp-2);flex-wrap:wrap;margin-bottom:var(--sp-4);}
+.btn{
+  display:inline-block;padding:9px 20px;border-radius:24px;font-weight:700;
+  font-size:var(--fs-sm);border:1px solid transparent;transition:transform .15s ease;
+}
+.btn:hover{text-decoration:none;transform:translateY(-2px);}
+.btn-primary{background:var(--c-accent);color:#241a06;}
+.btn-ghost{border-color:rgba(245,240,225,.45);color:#f5f0e1;}
+.hero-stats{display:flex;gap:var(--sp-4);list-style:none;margin:0;padding:0;flex-wrap:wrap;}
+.hero-stats li{font-size:var(--fs-xs);color:#b9c7b0;letter-spacing:.5px;}
+.hero-stats b{display:block;font-size:var(--fs-lg);color:#f4e3c4;font-weight:800;letter-spacing:0;}
+.hero-art{position:relative;min-height:280px;display:flex;align-items:center;justify-content:center;}
+.hero-art svg{width:100%;max-width:420px;height:auto;filter:drop-shadow(0 10px 24px rgba(0,0,0,.25));}
+
+/* ===== 主体布局 ===== */
+.layout{
+  display:grid;grid-template-columns:minmax(0,1fr) 288px;gap:var(--sp-4);
+  padding-top:var(--sp-5);padding-bottom:var(--sp-6);align-items:start;
+}
+main{min-width:0;}
+aside.sidebar{position:sticky;top:calc(var(--sticky-h) + 12px);min-width:0;}
+
+.section{margin-bottom:var(--sp-5);}
+.section-head{display:flex;align-items:baseline;gap:var(--sp-2);flex-wrap:wrap;margin-bottom:var(--sp-3);}
+.section-head h2{font-size:var(--fs-lg);}
+.section-head .hint{font-size:var(--fs-xs);color:var(--c-text-3);}
+.section-head::after{content:"";flex:1;height:1px;background:var(--c-line);}
+.card{
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+.pad{padding:var(--sp-3) var(--sp-4);}
+
+/* 领域概览 */
+.overview-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-3);}
+.ov-card{background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius);padding:var(--sp-3);}
+.ov-card b{display:block;color:var(--c-primary);font-size:var(--fs-md);margin-bottom:4px;}
+.ov-card span{font-size:var(--fs-sm);color:var(--c-text-2);}
+.ov-card .num{font-size:var(--fs-lg);color:var(--c-accent);font-weight:800;display:block;line-height:1.2;}
+
+/* 频道索引 */
+.channel-index{display:flex;flex-wrap:wrap;gap:var(--sp-1);}
+.channel-index a{
+  display:inline-block;padding:5px 12px;font-size:var(--fs-sm);
+  border:1px solid var(--c-line);border-radius:20px;background:var(--c-surface);color:var(--c-text-2);
+}
+.channel-index a:hover{background:var(--c-primary);color:#fff;border-color:var(--c-primary);text-decoration:none;}
+
+/* 精选推荐 网格卡片 */
+.pick-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--sp-3);}
+.pick-card{overflow:hidden;display:flex;flex-direction:column;}
+.pick-card .thumb{aspect-ratio:16/9;overflow:hidden;background:#e7e2d6;}
+.pick-card .thumb img{width:100%;height:100%;object-fit:cover;}
+.pick-card .body{padding:var(--sp-3);display:flex;flex-direction:column;gap:6px;flex:1;}
+.pick-card .meta{font-size:var(--fs-xs);color:var(--c-text-3);letter-spacing:.3px;}
+.pick-card h3{font-size:var(--fs-md);}
+.pick-card p{font-size:var(--fs-sm);color:var(--c-text-2);margin:0;}
+.pick-card .foot{margin-top:auto;font-size:var(--fs-xs);color:var(--c-accent);font-weight:700;}
+
+/* 最新更新 紧凑列表 */
+.update-list{list-style:none;margin:0;padding:0;}
+.update-list li{
+  display:grid;grid-template-columns:86px 1fr auto;gap:var(--sp-2);
+  padding:10px var(--sp-3);border-bottom:1px dashed var(--c-line);font-size:var(--fs-sm);
+  align-items:baseline;
+}
+.update-list li:last-child{border-bottom:0;}
+.update-list .date{color:var(--c-text-3);font-variant-numeric:tabular-nums;font-size:var(--fs-xs);}
+.update-list .badge{font-size:11px;padding:1px 7px;border-radius:10px;background:var(--c-accent-soft);color:#7a5212;white-space:nowrap;}
+
+/* 时间线 */
+.timeline{list-style:none;margin:0;padding:0 0 0 var(--sp-4);position:relative;}
+.timeline::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--c-line);}
+.timeline li{position:relative;padding-bottom:var(--sp-3);font-size:var(--fs-sm);color:var(--c-text-2);}
+.timeline li::before{
+  content:"";position:absolute;left:calc(-1 * var(--sp-4) + 1px);top:7px;
+  width:10px;height:10px;border-radius:50%;background:var(--c-accent);border:2px solid var(--c-surface);
+  box-shadow:0 0 0 1px var(--c-accent);
+}
+.timeline b{color:var(--c-primary);display:block;font-size:var(--fs-sm);}
+
+/* 深度解析 分栏正文 */
+.deep .lead{font-size:var(--fs-md);color:var(--c-text);border-left:3px solid var(--c-accent);padding-left:var(--sp-3);margin-bottom:var(--sp-4);}
+.deep h3{font-size:var(--fs-md);margin:var(--sp-4) 0 var(--sp-2);}
+.deep .two-col{column-count:2;column-gap:var(--sp-4);}
+.deep .two-col p{break-inside:avoid;}
+.evidence{
+  background:#f1efe7;border:1px solid var(--c-line);border-radius:var(--radius-sm);
+  padding:var(--sp-3);font-size:var(--fs-sm);color:var(--c-text-2);margin:var(--sp-3) 0;
+}
+.evidence table{width:100%;border-collapse:collapse;font-size:var(--fs-sm);}
+.evidence th,.evidence td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--c-line);vertical-align:top;}
+.evidence th{color:var(--c-primary);font-weight:700;background:#e9e5d9;}
+.evidence caption{caption-side:top;text-align:left;font-weight:700;color:var(--c-primary);padding-bottom:6px;}
+
+/* 体验指南 编号步骤 */
+.steps{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;gap:var(--sp-2);}
+.steps li{
+  counter-increment:s;display:grid;grid-template-columns:34px 1fr;gap:var(--sp-2);
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius);padding:var(--sp-3);
+}
+.steps li::before{
+  content:counter(s);width:30px;height:30px;border-radius:50%;
+  background:var(--c-primary);color:#fff;font-weight:800;font-size:var(--fs-sm);
+  display:flex;align-items:center;justify-content:center;
+}
+.steps b{display:block;color:var(--c-primary);margin-bottom:2px;}
+.steps p{font-size:var(--fs-sm);color:var(--c-text-2);margin:0;}
+
+/* FAQ */
+details.faq{
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius);
+  padding:0;margin-bottom:var(--sp-2);overflow:hidden;
+}
+details.faq summary{
+  cursor:pointer;padding:11px var(--sp-3);font-weight:700;color:var(--c-primary);
+  list-style:none;display:flex;justify-content:space-between;gap:var(--sp-2);align-items:center;
+  font-size:var(--fs-sm);
+}
+details.faq summary::-webkit-details-marker{display:none;}
+details.faq summary::after{content:"+";color:var(--c-accent);font-size:18px;font-weight:400;line-height:1;}
+details.faq[open] summary::after{content:"−";}
+details.faq summary:focus-visible{outline:2px solid var(--c-accent);outline-offset:-2px;}
+details.faq .a{padding:0 var(--sp-3) var(--sp-3);font-size:var(--fs-sm);color:var(--c-text-2);}
+details.faq .a p{margin-bottom:6px;}
+
+/* 评论 */
+.comments{display:grid;gap:var(--sp-2);}
+.comment{display:grid;grid-template-columns:44px 1fr;gap:var(--sp-2);background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius);padding:var(--sp-3);}
+.avatar{
+  width:40px;height:40px;border-radius:50%;background:var(--c-primary-soft);color:#f4e3c4;
+  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:var(--fs-sm);
+}
+.comment .who{font-size:var(--fs-sm);font-weight:700;color:var(--c-primary);}
+.comment .when{font-size:var(--fs-xs);color:var(--c-text-3);margin-left:6px;font-weight:400;}
+.comment p{font-size:var(--fs-sm);color:var(--c-text-2);margin:4px 0 0;}
+
+/* 资讯 双列 */
+.news-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-3);}
+.news-item{display:flex;gap:var(--sp-2);padding:var(--sp-3);}
+.news-item .dot{width:8px;height:8px;border-radius:50%;background:var(--c-accent);margin-top:8px;flex:none;}
+.news-item h3{font-size:var(--fs-sm);}
+.news-item p{font-size:var(--fs-xs);color:var(--c-text-2);margin:3px 0 0;}
+
+/* 推荐标签 */
+.tag-cloud{display:flex;flex-wrap:wrap;gap:8px;}
+.tag-cloud a{
+  font-size:var(--fs-sm);padding:6px 13px;border-radius:18px;
+  background:var(--c-surface);border:1px solid var(--c-line);color:var(--c-text-2);
+}
+.tag-cloud a:hover{background:var(--c-accent-soft);color:#7a5212;border-color:var(--c-accent);text-decoration:none;}
+
+/* 对照面板 可信度 */
+.trust-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-2);}
+.trust-col{border-radius:var(--radius);padding:var(--sp-3);font-size:var(--fs-sm);}
+.trust-col h3{font-size:var(--fs-sm);margin-bottom:6px;}
+.trust-col ul{margin:0;padding-left:1.1em;color:var(--c-text-2);font-size:var(--fs-xs);}
+.t-high{background:#e8f0e6;border:1px solid #bcd2bb;}
+.t-mid{background:#f5efe0;border:1px solid #e0d2ac;}
+.t-low{background:#f4e6e0;border:1px solid #e0bfae;}
+
+/* 排行榜 */
+.rank-list{list-style:none;counter-reset:r;margin:0;padding:0;}
+.rank-list li{
+  counter-increment:r;display:grid;grid-template-columns:30px 1fr auto;gap:var(--sp-2);
+  padding:9px var(--sp-3);border-bottom:1px solid var(--c-line);font-size:var(--fs-sm);
+}
+.rank-list li:last-child{border-bottom:0;}
+.rank-list li::before{
+  content:counter(r);color:var(--c-accent);font-weight:800;
+  font-variant-numeric:tabular-nums;text-align:center;
+}
+.rank-list .score{color:var(--c-text-3);font-size:var(--fs-xs);}
+
+/* 引语 */
+.pull-quote{
+  border-left:4px solid var(--c-accent);background:var(--c-surface);
+  border-radius:0 var(--radius) var(--radius) 0;padding:var(--sp-3) var(--sp-4);
+  font-size:var(--fs-md);color:var(--c-primary);font-style:normal;
+}
+.pull-quote cite{display:block;font-size:var(--fs-xs);color:var(--c-text-3);margin-top:6px;font-style:normal;}
+
+/* 侧栏 */
+.side-card{background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius);padding:var(--sp-3);margin-bottom:var(--sp-3);}
+.side-card h2{font-size:var(--fs-sm);color:var(--c-primary);margin-bottom:var(--sp-2);padding-bottom:6px;border-bottom:1px solid var(--c-line);}
+.side-nav ul{list-style:none;margin:0;padding:0;}
+.side-nav a{display:block;font-size:var(--fs-sm);color:var(--c-text-2);padding:5px 8px;border-radius:var(--radius-sm);border-left:2px solid transparent;}
+.side-nav a.active{background:var(--c-accent-soft);color:var(--c-primary);border-left-color:var(--c-accent);font-weight:700;}
+.side-nav a:hover{text-decoration:none;background:#f1efe7;}
+.side-list{list-style:none;margin:0;padding:0;font-size:var(--fs-sm);}
+.side-list li{padding:6px 0;border-bottom:1px dashed var(--c-line);}
+.side-list li:last-child{border-bottom:0;}
+.side-list span{font-size:var(--fs-xs);color:var(--c-text-3);}
+.notice-box{background:#f5efe0;border:1px solid #e0d2ac;border-radius:var(--radius-sm);padding:var(--sp-2) var(--sp-3);font-size:var(--fs-xs);color:#6b5322;}
+
+/* 页脚 */
+footer.site-foot{background:#182b21;color:#c8d1c1;padding:var(--sp-5) 0 var(--sp-3);font-size:var(--fs-sm);}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:var(--sp-4);margin-bottom:var(--sp-4);}
+footer .brand-text{color:#f4e3c4;}
+footer h3{font-size:var(--fs-sm);color:#f4e3c4;margin-bottom:var(--sp-2);letter-spacing:.5px;}
+.foot-grid ul{list-style:none;margin:0;padding:0;}
+.foot-grid li{margin-bottom:5px;}
+.foot-grid a{color:#b3c0ab;font-size:var(--fs-sm);}
+.foot-grid a:hover{color:#f4e3c4;}
+.foot-desc{font-size:var(--fs-sm);color:#9fae97;margin-top:var(--sp-2);max-width:34ch;}
+.foot-bottom{border-top:1px solid #2b4136;padding-top:var(--sp-3);display:flex;justify-content:space-between;gap:var(--sp-2);flex-wrap:wrap;font-size:var(--fs-xs);color:#8a9a83;}
+.disclaimer{background:#20352a;border-radius:var(--radius-sm);padding:var(--sp-2) var(--sp-3);font-size:var(--fs-xs);color:#93a48c;margin-bottom:var(--sp-3);}
+
+/* 回顶部 */
+#toTop{
+  position:fixed;right:18px;bottom:22px;z-index:70;
+  width:44px;height:44px;border-radius:50%;border:0;cursor:pointer;
+  background:var(--c-primary);color:#f4e3c4;box-shadow:var(--shadow-lg);
+  display:none;align-items:center;justify-content:center;font-size:18px;
+}
+#toTop.show{display:flex;}
+#toTop:focus-visible{outline:3px solid var(--c-accent);outline-offset:2px;}
+
+/* ===== 响应式 ===== */
+@media (max-width:980px){
+  .layout{grid-template-columns:1fr;}
+  aside.sidebar{position:static;order:2;}
+  .hero-inner{grid-template-columns:1fr;}
+  .hero-art{order:-1;min-height:200px;}
+  .hero-art svg{max-width:320px;}
+  .foot-grid{grid-template-columns:1fr 1fr;}
+  .head-inner{gap:var(--sp-2);}
+  nav.main-nav{order:3;flex-basis:100%;}
+}
+@media (max-width:760px){
+  :root{--sticky-h:96px;}
+  .pick-grid,.news-grid,.overview-grid,.trust-grid{grid-template-columns:1fr;}
+  .deep .two-col{column-count:1;}
+  .update-list li{grid-template-columns:76px 1fr;row-gap:2px;}
+  .update-list .badge{grid-column:2;justify-self:start;}
+  .search-box input{width:120px;}
+  .menu-btn{display:inline-block;}
+  nav.main-nav{display:none;}
+  nav.main-nav.open{display:block;}
+  nav.main-nav ul{flex-direction:column;gap:0;}
+  nav.main-nav a{padding:8px 12px;border-bottom:1px solid var(--c-line);border-radius:0;}
+  .hero{padding:var(--sp-5) 0 var(--sp-4);}
+  .hero h1{font-size:var(--fs-xl);}
+  .footer .foot-grid{grid-template-columns:1fr;}
+  #toTop{right:12px;bottom:14px;width:40px;height:40px;}
+}
+@media (max-width:400px){
+  .brand-sub{display:none;}
+  .head-tools .search-box input{width:96px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="sticky-zone">
+  <div class="announce" role="region" aria-label="站点公告">
+    <span class="tag">公告</span>
+    <span>11月6日完成主入口切换，备用镜像 <b>my-bbs.cc</b> 与 <b>myforum.net</b> 双线可用；旧域名 mybbs-old.org 已停止解析。</span>
+    <a href="/#updates">查看更新记录</a>
+  </div>
+
+  <header class="site-head">
+    <div class="head-inner">
+      <a class="brand" href="/#top" aria-label="回到首页顶部">
+        <svg viewBox="0 0 64 64" role="img" aria-label="玛雅论坛最新域名图形标志">
+          <rect width="64" height="64" rx="14" fill="#1f3d2f"/>
+          <path d="M17 45 L32 15 L47 45 Z" fill="none" stroke="#d9a441" stroke-width="3.5" stroke-linejoin="round"/>
+          <path d="M24 38 H40" stroke="#d9a441" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="32" cy="46" r="3.5" fill="#f4e3c4"/>
+        </svg>
+        <span class="brand-text">玛雅论坛最新域名<span class="brand-sub">MIRROR INDEX</span></span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">菜单</button>
+      <nav class="main-nav" id="mainNav" aria-label="主题导航">
+        <ul>
+          <li><a href="/#overview">域名概览</a></li>
+          <li><a href="/#picks">精选推荐</a></li>
+          <li><a href="/#updates">最新更新</a></li>
+          <li><a href="/#channels">频道导航</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">访问指南</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+        </ul>
+      </nav>
+      <div class="head-tools">
+        <div class="search-box">
+          <label class="sr-only" for="siteSearch">站内搜索</label>
+          <input type="search" id="siteSearch" placeholder="搜索镜像、版块、教程" autocomplete="off">
+          <div class="search-feedback" id="searchFeedback" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div>
+      <span class="hero-kicker">2026 年 11 月可用入口整理</span>
+      <h1>玛雅论坛最新域名</h1>
+      <p class="hero-desc">记录社区主域名与镜像的切换过程、可用的接入方式和常见登录故障。每条地址都标注了实测时间与网络环境，方便老用户在断线时找到下一条能走通的路。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/#guide">查看访问步骤</a>
+        <a class="btn btn-ghost" href="/#updates">最近一次切换记录</a>
+      </div>
+      <ul class="hero-stats">
+        <li><b>11</b>个入口频道</li>
+        <li><b>4</b>条在测镜像</li>
+        <li><b>2026-11-06</b>最近切换日</li>
+      </ul>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 420 320" role="presentation">
+        <defs>
+          <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#d9a441" stop-opacity=".9"/>
+            <stop offset="1" stop-color="#f4e3c4" stop-opacity=".25"/>
+          </linearGradient>
+        </defs>
+        <circle cx="210" cy="160" r="128" fill="none" stroke="#48604f" stroke-width="1.5" stroke-dasharray="4 7"/>
+        <circle cx="210" cy="160" r="94" fill="none" stroke="#5b7463" stroke-width="1.2"/>
+        <path d="M120 226 L210 78 L300 226 Z" fill="none" stroke="url(#g1)" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M160 186 H260" stroke="#e0c98a" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="210" cy="212" r="8" fill="#d9a441"/>
+        <g stroke="#a9bda0" stroke-width="1.4">
+          <line x1="66" y1="226" x2="354" y2="226"/>
+          <line x1="96" y1="248" x2="324" y2="248"/>
+        </g>
+        <g fill="#e0c98a" font-size="11" font-family="monospace">
+          <text x="40" y="130">my-bbs.cc</text>
+          <text x="300" y="104">myforum.net</text>
+          <text x="286" y="262">2026-11-06</text>
+        </g>
+        <circle cx="70" cy="94" r="3" fill="#d9a441"/>
+        <circle cx="344" cy="120" r="3" fill="#f4e3c4"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<div class="wrap layout">
+  <main>
+
+    <!-- 1 领域概览 -->
+    <section class="section" id="overview">
+      <div class="section-head">
+        <h2>域名概览</h2>
+        <span class="hint">近期入口状态与规模</span>
+      </div>
+      <p>社区主站自 2023 年起实行多域名并行策略，一个主入口加若干镜像，用于应对区域解析异常。当前在浏览器中可直接打开的主入口为 my-bbs.cc，镜像 myforum.net 与之同步数据。两站共用同一套账号体系，登录态不互通，切换后需重新登录。</p>
+      <div class="overview-grid">
+        <div class="ov-card">
+          <span class="num">4</span>
+          <b>在测镜像数量</b>
+          <span>含主入口 1 条、备用 2 条、实验性 1 条，测试环境为电信与联通宽带。</span>
+        </div>
+        <div class="ov-card">
+          <span class="num">2</span>
+          <b>数据同步延迟</b>
+          <span>镜像与主站的内容同步窗口约 2 分钟，评分与收藏数据延迟更久，约 15 分钟。</span>
+        </div>
+        <div class="ov-card">
+          <span class="num">11</span>
+          <b>公开频道</b>
+          <span>注册用户可见的公开版块数量，另有 3 个需邀请码的私密版块不在导航中展示。</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 分类入口 -->
+    <section class="section" id="channels">
+      <div class="section-head">
+        <h2>频道索引</h2>
+        <span class="hint">按关键词直接跳到对应版块说明</span>
+      </div>
+      <div class="channel-index">
+        <a href="/#picks">域名镜像测速</a>
+        <a href="/#updates">镜像同步日志</a>
+        <a href="/#guide">DNS 解析排查</a>
+        <a href="/#deep">域名信任判断</a>
+        <a href="/#community">账号安全设置</a>
+        <a href="/#comments">板块使用反馈</a>
+        <a href="/#faq">登录失败原因</a>
+        <a href="/#news">社区公告转载</a>
+        <a href="/#trust">仿冒站点识别</a>
+        <a href="/#rank">镜像稳定性榜</a>
+        <a href="/#tags">长尾入口索引</a>
+        <a href="/#quotes">老用户经验谈</a>
+        <a href="/#community">注册邀请码说明</a>
+        <a href="/#news">版主招募动态</a>
+      </div>
+    </section>
+
+    <!-- 3 精选内容推荐 -->
+    <section class="section" id="picks">
+      <div class="section-head">
+        <h2>精选内容推荐</h2>
+        <span class="hint">本周编辑挑出的四条</span>
+      </div>
+      <div class="pick-grid">
+        <article class="pick-card card">
+          <div class="thumb"><img src="https://picsum.photos/seed/maya-mirror-speed/640/360" width="640" height="360" loading="lazy" alt="电脑屏幕上并列显示两个镜像站首页的测速截图"></div>
+          <div class="body">
+            <span class="meta">11月7日 · 访问实测</span>
+            <h3>三条镜像在晚高峰的打开速度对比</h3>
+            <p>20:00 至 22:00 之间，my-bbs.cc 首屏平均 1.8 秒，myforum.net 为 2.4 秒，实验性节点 4 秒以上。</p>
+            <span class="foot">阅读实测记录</span>
+          </div>
+        </article>
+        <article class="pick-card card">
+          <div class="thumb"><img src="https://picsum.photos/seed/maya-dns-fix/640/360" width="640" height="360" loading="lazy" alt="路由器管理页面中的 DNS 设置项特写"></div>
+          <div class="body">
+            <span class="meta">11月5日 · 排障笔记</span>
+            <h3>DNS 污染导致打不开时先改这一项</h3>
+            <p>把本地 DNS 换成 223.5.5.5 后再访问主入口，多数区域的解析异常可以恢复，不必急着找新地址。</p>
+            <span class="foot">查看排障步骤</span>
+          </div>
+        </article>
+        <article class="pick-card card">
+          <div class="thumb"><img src="https://picsum.photos/seed/maya-fake-site/640/360" width="640" height="360" loading="lazy" alt="两个相似页面的地址栏对比，其中一个是仿冒站点"></div>
+          <div class="body">
+            <span class="meta">11月4日 · 识别方法</span>
+            <h3>仿冒站点的三个共同特征</h3>
+            <p>域名多一个连字符、登录页不跳转二次验证、页脚缺少备案号——10 月已确认 2 个仿冒地址。</p>
+            <span class="foot">对照识别清单</span>
+          </div>
+        </article>
+        <article class="pick-card card">
+          <div class="thumb"><img src="https://picsum.photos/seed/maya-account/640/360" width="640" height="360" loading="lazy" alt="账号安全设置页面的两步验证开关"></div>
+          <div class="body">
+            <span class="meta">11月2日 · 账号安全</span>
+            <h3>换域名后登录态失效怎么处理</h3>
+            <p>各域名的 Cookie 不互通，重新登录属于正常现象；开启两步验证可减少频繁登录带来的风险。</p>
+            <span class="foot">查看设置要点</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4 最新更新 -->
+    <section class="section" id="updates">
+      <div class="section-head">
+        <h2>最新更新</h2>
+        <span class="hint">镜像与社区功能变动</span>
+      </div>
+      <ul class="update-list card">
+        <li><span class="date">11-07</span><span>my-bbs.cc 主入口完成证书更新，TLS 1.3 支持恢复</span><span class="badge">入口</span></li>
+        <li><span class="date">11-06</span><span>旧域名 mybbs-old.org 停止解析，部分地区仍有缓存残留</span><span class="badge">变更</span></li>
+        <li><span class="date">11-05</span><span>myforum.net 镜像同步延迟从 5 分钟缩短到 2 分钟</span><span class="badge">镜像</span></li>
+        <li><span class="date">11-04</span><span>板块“域名与访问”新增镜像状态标签，显示手动实测结果</span><span class="badge">功能</span></li>
+        <li><span class="date">11-03</span><span>收到 6 起“登录后跳回登录页”反馈，集中在移动端 Safari</span><span class="badge">反馈</span></li>
+        <li><span class="date">11-01</span><span>实验性节点 myforum-lab.net 开放内测，限已注册满 90 天用户</span><span class="badge">内测</span></li>
+        <li><span class="date">10-30</span><span>社区版块“账号安全”发布两步验证设置指引</span><span class="badge">文档</span></li>
+        <li><span class="date">10-28</span><span>my-bbs.cc 的搜索接口超时问题修复，索引重建完成</span><span class="badge">修复</span></li>
+      </ul>
+    </section>
+
+    <!-- 5 深度解析 -->
+    <section class="section deep" id="deep">
+      <div class="section-head">
+        <h2>深度解析：换域名之后，哪些判断还能沿用</h2>
+      </div>
+      <p class="lead">主入口换掉以后，多数老用户靠“记住一个地址”的习惯会失效。可沿用的判断是：先确认数据来源，再判断地址是否可信，最后才看访问是否顺畅。顺序颠倒，容易被速度快的仿冒站带偏。</p>
+
+      <div class="two-col">
+        <h3>一、10 月到 11 月的时间线</h3>
+        <p>10 月 12 日，mybbs-old.org 首次出现区域性解析失败，论坛在“站务公告”发帖提醒，帖子落款时间是当日 14:20。10 月 26 日，第二条备用镜像 myforum.net 上线，公告称“同步窗口暂定 5 分钟”。11 月 6 日 09:40，旧域名停止解析，当日公告将同步窗口改为 2 分钟。11 月 7 日主入口证书更新，公告中给出的完成时间是 21:15。</p>
+        <p>这四步里，真正可核对的是公告时间与镜像的同步参数。至于“解析失败是否与地区运营商有关”，公告只写了“部分区域”，没有给出运营商名单，属于尚未确认的部分。</p>
+        <h3>二、把“可信”拆成三个可核对的点</h3>
+        <p>第一看域名拼写：主入口为 my-bbs.cc，连字符在 my 与 bbs 之间，仿冒站常写成 mybbs.cc 或 my-bbbs.cc。第二看登录页是否跳转二次验证：站方在 11 月 2 日的账号安全帖里明确，登录后会进入两步验证页，不跳转的页面可疑。第三看页脚：社区页脚固定保留备案号与版本号，两者缺一即可疑。</p>
+      </div>
+
+      <div class="evidence">
+        <table>
+          <caption>三条入口在 11 月 7 日的实测对照</caption>
+          <thead>
+            <tr><th>地址</th><th>首屏耗时</th><th>登录后是否二次验证</th><th>页脚备案号</th><th>判定</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>my-bbs.cc</td><td>1.8 秒</td><td>是</td><td>有</td><td>主入口</td></tr>
+            <tr><td>myforum.net</td><td>2.4 秒</td><td>是</td><td>有</td><td>备用镜像</td></tr>
+            <tr><td>my-bbbs.cc</td><td>1.2 秒</td><td>否</td><td>无</td><td>仿冒，勿登录</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="two-col">
+        <h3>三、速度不是可信度</h3>
+        <p>上表中 my-bbbs.cc 首屏只要 1.2 秒，比主入口还快。10 月 29 日社区用户“老周看板”在反馈帖里记录：该地址打开后直接要求输入账号密码，不跳转两步验证，页面底部无备案信息。快，是因为没有真实数据要加载。</p>
+        <p>反过来，实验性节点 myforum-lab.net 在 11 月 1 日开放时首屏要 4 秒以上，但那是因为限流内测，公告写明了“仅开放已注册满 90 天的用户”。慢不等于假，快也不等于真，判断依据应落在验证流程与页脚信息上。</p>
+        <h3>四、同步延迟带来的误判</h3>
+        <p>镜像与主站同步约 2 分钟，评分与收藏数据约 15 分钟。11 月 5 日有用户发帖称“镜像里我的收藏少了三条”，实际是当时正处于数据回写窗口。公告在 11 月 5 日 10:30 更新了同步参数说明，但该条只写在站务公告里，未进入镜像首页的提示条，容易造成误解。</p>
+        <p>可反驳的点也在这里：如果同步机制稳定，2 分钟的延迟对浏览型用户几乎无感；真正需要的是把“镜像非实时”这件事放在镜像首页，而不是只放在公告里。站方在 11 月 4 日给镜像加了状态标签，算是对这个问题的部分回应，但标签只显示手动实测时间，不显示同步窗口。</p>
+      </div>
+    </section>
+
+    <!-- 6 体验指南 编号步骤 -->
+    <section class="section" id="guide">
+      <div class="section-head">
+        <h2>访问体验指南</h2>
+        <span class="hint">从打不开到能正常登录</span>
+      </div>
+      <ol class="steps">
+        <li>
+          <div>
+            <b>先确认地址拼写</b>
+            <p>主入口 my-bbs.cc 中的连字符只出现一次。地址栏里若出现两个连字符或少了连字符，直接关掉，不要输入账号。</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <b>改 DNS 再试一次</b>
+            <p>把本地 DNS 换成 223.5.5.5 或 119.29.29.29，刷新后重试。11 月 5 日的排障帖里，多数区域在这一步恢复。</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <b>切到备用镜像</b>
+            <p>主入口持续打不开时改用 myforum.net。镜像与主站共用账号，但登录态不互通，需要重新登录一次。</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <b>登录后核对二次验证</b>
+            <p>正常流程会进入两步验证页。若直接跳进首页且没要求验证，退回并检查地址，不要继续操作。</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <b>记录异常并反馈</b>
+            <p>在“域名与访问”版块发帖，写明所在城市、运营商、出错时间与截图。11 月 3 日的移动端反馈就是靠这类信息定位的。</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 7 可信度分层 对照面板 -->
+    <section class="section" id="trust">
+      <div class="section-head">
+        <h2>入口可信度分层</h2>
+        <span class="hint">按可核对信息分组</span>
+      </div>
+      <div class="trust-grid">
+        <div class="trust-col t-high">
+          <h3>高可信：可登录</h3>
+          <ul>
+            <li>my-bbs.cc 主入口</li>
+            <li>myforum.net 备用镜像</li>
+            <li>页脚含备案号与版本号</li>
+            <li>登录后进入两步验证</li>
+          </ul>
+        </div>
+        <div class="trust-col t-mid">
+          <h3>待观察：可浏览</h3>
+          <ul>
+            <li>myforum-lab.net 内测节点</li>
+            <li>需注册满 90 天才可访问</li>
+            <li>首屏 4 秒以上属限流</li>
+            <li>功能不全，勿作长期入口</li>
+          </ul>
+        </div>
+        <div class="trust-col t-low">
+          <h3>不可信：勿登录</h3>
+          <ul>
+            <li>my-bbbs.cc 已确认仿冒</li>
+            <li>mybbs.cc 短域名无备案</li>
+            <li>不跳转二次验证</li>
+            <li>10 月 29 日有用户反馈</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 FAQ -->
+    <section class="section" id="faq">
+      <div class="section-head">
+        <h2>常见问题</h2>
+        <span class="hint">登录、镜像与仿冒识别</span>
+      </div>
+
+      <details class="faq">
+        <summary>主入口换了以后，收藏的旧帖子还能打开吗？</summary>
+        <div class="a"><p>帖子地址中的域名部分需要替换。帖子编号保持不变，把旧地址的域名段换成 my-bbs.cc 即可访问，11 月 6 日的公告里说明了这一对应关系。</p></div>
+      </details>
+
+      <details class="faq">
+        <summary>镜像站为什么同步慢，会不会丢数据？</summary>
+        <div class="a"><p>镜像与主站的内容同步约 2 分钟，评分与收藏回写约 15 分钟。丢数据的情况未见公告确认；11 月 5 日的“收藏少了三条”在回写完成后恢复。</p></div>
+      </details>
+
+      <details class="faq">
+        <summary>登录后又被弹回登录页，是什么原因？</summary>
+        <div class="a"><p>多为 Cookie 未写入成功。11 月 3 日的反馈集中在移动端 Safari，临时办法是换用其他浏览器或清除本站 Cookie 后重试。</p></div>
+      </details>
+
+      <details class="faq">
+        <summary>怎么判断一个地址是不是仿冒的？</summary>
+        <div class="a"><p>看三点：连字符数量、登录后是否跳转两步验证、页脚有无备案号。my-bbbs.cc 三项都不符合，10 月 29 日已被用户记录。</p></div>
+      </details>
+
+      <details class="faq">
+        <summary>内测节点 myforum-lab.net 能长期用吗？</summary>
+        <div class="a"><p>官方在 11 月 1 日的公告中定位为限流内测，仅开放给注册满 90 天的用户，功能不完整，不建议当作日常入口。</p></div>
+      </details>
+
+      <details class="faq">
+        <summary>账号在两个域名之间需要重复注册吗？</summary>
+        <div class="a"><p>不需要。主入口与 myforum.net 共用同一套账号体系，只是登录态不互通，切换后重新登录一次即可。</p></div>
+      </details>
+    </section>
+
+    <!-- 9 用户评论 -->
+    <section class="section" id="comments">
+      <div class="section-head">
+        <h2>用户评论</h2>
+        <span class="hint">来自“域名与访问”版块</span>
+      </div>
+      <div class="comments">
+        <div class="comment">
+          <div class="avatar" aria-hidden="true">周</div>
+          <div>
+            <span class="who">老周看板</span><span class="when">11-07 21:40</span>
+            <p>证书更新后 my-bbs.cc 的 TLS 1.3 恢复正常，之前 Chrome 提示的“连接不安全”消失了。</p>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="avatar" aria-hidden="true">林</div>
+          <div>
+            <span class="who">林间抄手</span><span class="when">11-07 19:12</span>
+            <p>myforum.net 同步确实快了，帖子发出约 2 分钟就在镜像看到。就是评分要等，昨晚有个 15 分的差距。</p>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="avatar" aria-hidden="true">北</div>
+          <div>
+            <span class="who">北纬三十度</span><span class="when">11-06 23:05</span>
+            <p>旧域名停了解析，我这边 DNS 缓存到晚上才清掉，一直以为站没了。建议公告里写清缓存多久。</p>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="avatar" aria-hidden="true">陈</div>
+          <div>
+            <span class="who">陈米粒</span><span class="when">11-06 15:48</span>
+            <p>my-bbbs.cc 那个仿冒站太像了，我差点把密码敲进去。页面底部没有备案号，这点很关键。</p>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="avatar" aria-hidden="true">阿</div>
+          <div>
+            <span class="who">阿栗</span><span class="when">11-05 11:30</span>
+            <p>镜像同步参数写在站务公告里，但镜像首页提示条没写，收藏少三条的时候我还以为账号出问题。</p>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="avatar" aria-hidden="true">许</div>
+          <div>
+            <span class="who">许书言</span><span class="when">11-04 20:19</span>
+            <p>状态标签挺好，能看到手动实测时间。就是没标测试城市，我在成都测和公告里的结果差了一截。</p>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="avatar" aria-hidden="true">山</div>
+          <div>
+            <span class="who">山椒鱼</span><span class="when">11-03 18:02</span>
+            <p>移动端 Safari 被弹回登录页三次，清了 Cookie 才好。这问题在 11 月 3 日那条反馈里提到。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10 相关资讯 -->
+    <section class="section" id="news">
+      <div class="section-head">
+        <h2>相关资讯</h2>
+        <span class="hint">公告与版块动态</span>
+      </div>
+      <div class="news-grid">
+        <div class="news-item card">
+          <span class="dot" aria-hidden="true"></span>
+          <div>
+            <h3>“域名与访问”版块开放镜像状态标签</h3>
+            <p>11 月 4 日起，版块帖子可标注手动实测时间，目前已有 27 条记录。</p>
+          </div>
+        </div>
+        <div class="news-item card">
+          <span class="dot" aria-hidden="true"></span>
+          <div>
+            <h3>版主招募：账号安全方向</h3>
+            <p>10 月 31 日发布招募帖，负责两步验证指引与登录故障答疑，招募 2 人。</p>
+          </div>
+        </div>
+        <div class="news-item card">
+          <span class="dot" aria-hidden="true"></span>
+          <div>
+            <h3>搜索接口修复完成</h3>
+            <p>10 月 28 日重建索引，主站搜索超时问题关闭，镜像搜索仍在分批同步。</p>
+          </div>
+        </div>
+        <div class="news-item card">
+          <span class="dot" aria-hidden="true"></span>
+          <div>
+            <h3>实验性节点内测名单公布</h3>
+            <p>11 月 1 日首批发放 120 个内测资格，条件为注册满 90 天且近期有登录记录。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11 相关推荐 -->
+    <section class="section" id="tags">
+      <div class="section-head">
+        <h2>相关推荐</h2>
+        <span class="hint">按话题找入口</span>
+      </div>
+      <div class="tag-cloud">
+        <a href="/#guide">玛雅论坛域名打不开怎么办</a>
+        <a href="/#updates">my-bbs.cc 主入口更新</a>
+        <a href="/#picks">myforum.net 镜像测速</a>
+        <a href="/#faq">论坛登录后跳回登录页</a>
+        <a href="/#trust">仿冒站点识别三要素</a>
+        <a href="/#deep">镜像同步延迟说明</a>
+        <a href="/#community">两步验证设置方法</a>
+        <a href="/#rank">镜像稳定性排行</a>
+        <a href="/#updates">旧域名停止解析公告</a>
+        <a href="/#guide">换 DNS 恢复访问</a>
+      </div>
+    </section>
+
+    <!-- 12 镜像稳定性榜 -->
+    <section class="section" id="rank">
+      <div class="section-head">
+        <h2>镜像稳定性榜</h2>
+        <span class="hint">11月7日 20:00 至 22:00 实测</span>
+      </div>
+      <ol class="rank-list card">
+        <li><span>my-bbs.cc 主入口</span><span class="score">可用率 98%</span></li>
+        <li><span>myforum.net 备用镜像</span><span class="score">可用率 95%</span></li>
+        <li><span>myforum-lab.net 内测节点</span><span class="score">可用率 71%</span></li>
+        <li><span>my-bbbs.cc（仿冒，不参与排名）</span><span class="score">已排除</span></li>
+      </ol>
+    </section>
+
+    <!-- 13 老用户引语 -->
+    <section class="section" id="quotes">
+      <div class="section-head">
+        <h2>老用户经验谈</h2>
+      </div>
+      <div class="pull-quote">
+        “地址会换，页脚那行备案号不会。我每次换入口先看页脚，再看登录页跳不跳两步验证，比记域名可靠。”
+        <cite>—— 注册 7 年的用户“林间抄手”，11 月 6 日版块回帖</cite>
+      </div>
+    </section>
+
+    <!-- 14 账号安全与补充 -->
+    <section class="section" id="community">
+      <div class="section-head">
+        <h2>账号安全与社区补充</h2>
+        <span class="hint">换域名后需要重做的设置</span>
+      </div>
+      <div class="card pad">
+        <ul>
+          <li>两步验证：主入口与镜像各配置一次，验证器记录不受域名切换影响。</li>
+          <li>邮箱绑定：11 月 2 日指引提到，找回密码依赖邮箱，换域名前确认邮箱可用。</li>
+          <li>收藏与关注：镜像回写约 15 分钟，切换域名后短时间内看到的数量可能偏少。</li>
+          <li>私密版块：需邀请码的 3 个版块不在公开导航中，入口说明放在版务置顶帖。</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <aside class="sidebar" aria-label="侧边栏">
+    <div class="side-card side-nav">
+      <h2>本页栏目</h2>
+      <ul>
+        <li><a href="/#overview">域名概览</a></li>
+        <li><a href="/#channels">频道索引</a></li>
+        <li><a href="/#picks">精选内容推荐</a></li>
+        <li><a href="/#updates">最新更新</a></li>
+        <li><a href="/#deep">深度解析</a></li>
+        <li><a href="/#guide">访问体验指南</a></li>
+        <li><a href="/#trust">入口可信度分层</a></li>
+        <li><a href="/#faq">常见问题</a></li>
+        <li><a href="/#comments">用户评论</a></li>
+        <li><a href="/#news">相关资讯</a></li>
+        <li><a href="/#rank">镜像稳定性榜</a></li>
+      </ul>
+    </div>
+
+    <div class="side-card">
+      <h2>当前在测入口</h2>
+      <ul class="side-list">
+        <li>my-bbs.cc<br><span>主入口 · 11月7日 21:15 证书更新</span></li>
+        <li>myforum.net<br><span>备用镜像 · 同步窗口 2 分钟</span></li>
+        <li>myforum-lab.net<br><span>内测节点 · 限注册满 90 天</span></li>
+      </ul>
+    </div>
+
+    <div class="side-card">
+      <h2>变更时间线</h2>
+      <ul class="timeline">
+        <li><b>10月12日</b>旧域名首次出现区域解析失败</li>
+        <li><b>10月26日</b>备用镜像 myforum.net 上线</li>
+        <li><b>11月6日</b>旧域名停止解析</li>
+        <li><b>11月7日</b>主入口证书更新完成</li>
+      </ul>
+    </div>
+
+    <div class="notice-box">
+      提示：登录前先核对地址拼写与页脚备案号。my-bbbs.cc 已确认为仿冒地址，请勿输入账号密码。
+    </div>
+  </aside>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="margin-bottom:6px;">
+          <svg viewBox="0 0 64 64" width="32" height="32" role="img" aria-label="页脚图形标志">
+            <rect width="64" height="64" rx="14" fill="#2f5a46"/>
+            <path d="M17 45 L32 15 L47 45 Z" fill="none" stroke="#d9a441" stroke-width="3.5" stroke-linejoin="round"/>
+            <circle cx="32" cy="46" r="3.5" fill="#f4e3c4"/>
+          </svg>
+          <span class="brand-text">玛雅论坛最新域名</span>
+        </div>
+        <p class="foot-desc">追踪社区主域名与镜像的切换，记录每一次可核对的入口变更与访问故障。</p>
+      </div>
+      <div>
+        <h3>入口与镜像</h3>
+        <ul>
+          <li><a href="/#overview">域名概览</a></li>
+          <li><a href="/#updates">镜像同步日志</a></li>
+          <li><a href="/#rank">稳定性榜</a></li>
+          <li><a href="/#trust">可信度分层</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>访问与安全</h3>
+        <ul>
+          <li><a href="/#guide">访问步骤</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#community">账号安全</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>社区与反馈</h3>
+        <ul>
+          <li><a href="/#comments">用户评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#tags">话题索引</a></li>
+          <li><a href="/#quotes">老用户经验</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="disclaimer">页面中的入口地址、同步参数与实测耗时均为示例数据，用于说明判断方法，实际访问请以站方公告为准。</div>
+    <div class="foot-bottom">
+      <span>© 2026 玛雅论坛最新域名 · 页面内容更新于 2026-11-08</span>
+      <span>可核对更新项：11月7日证书更新、11月6日旧域名停止解析</span>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var menuBtn = document.getElementById('menuBtn');
+  var mainNav = document.getElementById('mainNav');
+  var toTop = document.getElementById('toTop');
+  var searchInput = document.getElementById('siteSearch');
+  var feedback = document.getElementById('searchFeedback');
+
+  if (menuBtn && mainNav){
+    menuBtn.addEventListener('click', function(){
+      var open = mainNav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    mainNav.addEventListener('click', function(e){
+      if (e.target.tagName === 'A' && window.innerWidth <= 760){
+        mainNav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', function(){
+    if (window.scrollY > 480){ toTop.classList.add('show'); }
+    else { toTop.classList.remove('show'); }
+  }, {passive:true});
+
+  if (toTop){
+    toTop.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+
+  // 关键词本地查找
+  if (searchInput && feedback){
+    var pages = [
+      {t:'域名概览', href:'/#overview', k:'入口 镜像 状态 规模'},
+      {t:'频道索引', href:'/#channels', k:'分类 导航 版块'},
+      {t:'精选内容推荐', href:'/#picks', k:'测速 排障 仿冒 账号'},
+      {t:'最新更新', href:'/#updates', k:'证书 同步 反馈 内测'},
+      {t:'深度解析', href:'/#deep', k:'时间线 可信度 同步延迟'},
+      {t:'访问体验指南', href:'/#guide', k:'DNS 登录 步骤'},
+      {t:'入口可信度分层', href:'/#trust', k:'高可信 仿冒 内测'},
+      {t:'常见问题', href:'/#faq', k:'登录 收藏 二次验证'},
+      {t:'用户评论', href:'/#comments', k:'实测 反馈 吐槽'},
+      {t:'相关资讯', href:'/#news', k:'公告 招募 内测'},
+      {t:'相关推荐', href:'/#tags', k:'话题 索引'},
+      {t:'镜像稳定性榜', href:'/#rank', k:'可用率 排名'},
+      {t:'账号安全与社区补充', href:'/#community', k:'两步验证 邮箱 收藏'}
+    ];
+    var timer = null;
+    searchInput.addEventListener('input', function(){
+      clearTimeout(timer);
+      timer = setTimeout(function(){
+        var q = searchInput.value.trim().toLowerCase();
+        if (!q){ feedback.classList.remove('show'); feedback.textContent=''; return; }
+        var hits = pages.filter(function(p){
+          return p.t.toLowerCase().indexOf(q) > -1 || p.k.toLowerCase().indexOf(q) > -1;
+        });
+        if (hits.length === 0){
+          feedback.textContent = '没有找到与“' + searchInput.value.trim() + '”相关的内容，可试试“镜像”“DNS”“登录”等词。';
+          feedback.classList.add('show');
+        } else {
+          feedback.innerHTML = '找到 ' + hits.length + ' 个栏目：' +
+            hits.slice(0,4).map(function(h){ return '<a href="' + h.href + '">' + h.t + '</a>'; }).join(' · ');
+          feedback.classList.add('show');
+        }
+      }, 220);
+    });
+    document.addEventListener('click', function(e){
+      if (!feedback.contains(e.target) && e.target !== searchInput){
+        feedback.classList.remove('show');
+      }
+    });
+  }
+
+  // 侧栏滚动高亮
+  var sideLinks = Array.prototype.slice.call(document.querySelectorAll('.side-nav a'));
+  var sections = sideLinks.map(function(a){
+    var id = a.getAttribute('href').split('#')[1];
+    return document.getElementById(id);
+  }).filter(Boolean);
+
+  if ('IntersectionObserver' in window && sections.length){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){
+          sideLinks.forEach(function(a){
+            var id = a.getAttribute('href').split('#')[1];
+            a.classList.toggle('active', id === en.target.id);
+          });
+        }
+      });
+    }, {rootMargin:'-30% 0px -60% 0px', threshold:0});
+    sections.forEach(function(s){ io.observe(s); });
+  }
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "玛雅论坛最新域名",
+  "description": "记录玛雅论坛主域名与镜像的切换过程、可用入口与登录故障排查方法。",
+  "inLanguage": "zh-CN"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "主入口换了以后，收藏的旧帖子还能打开吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "帖子地址中的域名部分需要替换。帖子编号保持不变，把旧地址的域名段换成 my-bbs.cc 即可访问。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "镜像站为什么同步慢，会不会丢数据？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "镜像与主站的内容同步约 2 分钟，评分与收藏回写约 15 分钟。11 月 5 日的收藏数量偏少在回写完成后恢复。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "登录后又被弹回登录页，是什么原因？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "多为 Cookie 未写入成功。11 月 3 日的反馈集中在移动端 Safari，可换用其他浏览器或清除本站 Cookie 后重试。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "怎么判断一个地址是不是仿冒的？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "看三点：连字符数量、登录后是否跳转两步验证、页脚有无备案号。my-bbbs.cc 三项都不符合。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "内测节点 myforum-lab.net 能长期用吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "官方在 11 月 1 日的公告中定位为限流内测，仅开放给注册满 90 天的用户，功能不完整，不建议当作日常入口。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "账号在两个域名之间需要重复注册吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不需要。主入口与 myforum.net 共用同一套账号体系，只是登录态不互通，切换后重新登录一次即可。"
+      }
+    }
+  ]
+}
+</script>
+
+</body>
+                                                    </html>
